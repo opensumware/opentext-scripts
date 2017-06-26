@@ -15,7 +15,7 @@ EOL
 
 cat > ${AS_PATH}/cfgedit/script02.txt <<EOL
 cd ${CDS_CFG}/resources/Generic/VgnExtTemp/Generic
-set -f ${AS_PATH}/cfgedit/vgn-ext-templating_new.txt DATA
+set -f ${AS_PATH}/cfgedit/vgn-ext-templating.txt DATA
 commit
 EOL
 
